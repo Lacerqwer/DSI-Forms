@@ -10,4 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'DSI-Form';
+  onSubmit(form: any) {
+    console.log('Datos del formulario:', form.value);
+  }
 }
